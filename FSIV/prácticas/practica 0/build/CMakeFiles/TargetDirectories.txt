@@ -1,0 +1,7 @@
+/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 0/build/CMakeFiles/show_extremes.dir
+/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 0/build/CMakeFiles/show_img.dir
+/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 0/build/CMakeFiles/show_video.dir
+/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 0/build/CMakeFiles/comp_stats.dir
+/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 0/build/CMakeFiles/test_common_code.dir
+/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 0/build/CMakeFiles/edit_cache.dir
+/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 0/build/CMakeFiles/rebuild_cache.dir

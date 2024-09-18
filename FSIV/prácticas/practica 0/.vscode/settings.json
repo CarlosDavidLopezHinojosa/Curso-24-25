@@ -1,0 +1,9 @@
+{
+    "cmake.sourceDirectory": "/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 0/fsiv_tutorial_opencv-students-1.8/fsiv_tutorial_opencv",
+    "files.associations": {
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "valarray": "cpp"
+    }
+}

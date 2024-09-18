@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "minitutorial_opencv",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "comp_stats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-comp_stats-Debug-070243e8a348c39b3ec6.json",
+					"name" : "comp_stats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "show_extremes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-show_extremes-Debug-8ac800741b0091ca64dd.json",
+					"name" : "show_extremes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "show_img::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-show_img-Debug-f75a75e4841e7fdd42eb.json",
+					"name" : "show_img",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "show_video::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-show_video-Debug-01e68181f660809f70af.json",
+					"name" : "show_video",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_common_code::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_common_code-Debug-ab10d8504b1402cdc5c5.json",
+					"name" : "test_common_code",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/carlos/Escritorio/Curso 24-25/FSIV/pr\u00e1cticas/practica 0/build",
+		"source" : "/home/carlos/Escritorio/Curso 24-25/FSIV/pr\u00e1cticas/practica 0/fsiv_tutorial_opencv-students-1.8/fsiv_tutorial_opencv"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
