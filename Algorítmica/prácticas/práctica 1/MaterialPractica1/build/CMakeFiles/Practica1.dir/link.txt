@@ -1,0 +1,1 @@
+/usr/bin/g++  -Wall -Wextra -O2 -g CMakeFiles/Practica1.dir/main.cpp.o -o Practica1  -lrt 

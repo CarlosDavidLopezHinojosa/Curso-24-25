@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1/build",
+  "command": "/usr/bin/g++  -I\"/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1\" -I/usr/include/eigen3  -Wall -Wextra -O2 -g -std=gnu++17 -o CMakeFiles/Practica1.dir/main.cpp.o -c \"/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1/main.cpp\"",
+  "file": "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1/main.cpp",
+  "output": "CMakeFiles/Practica1.dir/main.cpp.o"
+}
+]
