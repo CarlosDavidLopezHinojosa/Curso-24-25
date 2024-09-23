@@ -13,24 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "2024-09-19.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "2f852336aafaf53e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "eabeaeb552338065",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -62,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Topología",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "2024-09-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "2024-09-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "2024-09-19.md"
               }
             }
           }
@@ -162,6 +148,20 @@
   },
   "active": "38c7556172a1904b",
   "lastOpenFiles": [
+    "images/Captura de pantalla 2024-09-19 a las 11.39.28.png",
+    "images/Captura de pantalla 2024-09-19 a las 11.27.58.png",
+    "images/Captura de pantalla 2024-09-19 a las 11.24.14.png",
+    "images/Captura de pantalla 2024-09-19 a las 11.13.29.png",
+    "images/Captura de pantalla 2024-09-19 a las 11.12.51.png",
+    "images/Captura de pantalla 2024-09-19 a las 11.12.09.png",
+    "images/Captura de pantalla 2024-09-19 a las 11.11.35.png",
+    "images/Captura de pantalla 2024-09-19 a las 11.10.40.png",
+    "images/Captura de pantalla 2024-09-19 a las 11.09.43.png",
+    "images/Captura de pantalla 2024-09-19 a las 11.08.48.png",
+    "images/Captura de pantalla 2024-09-19 a las 11.07.36.png",
+    "Registro de Clases de Teoría.md",
+    "2024-09-19.md",
+    "images",
     "Welcome.md"
   ]
 }
