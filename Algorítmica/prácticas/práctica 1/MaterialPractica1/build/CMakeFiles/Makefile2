@@ -63,7 +63,8 @@ CMAKE_BINARY_DIR = "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Practica1.dir/all
+all: CMakeFiles/bubble_sort.dir/all
+all: CMakeFiles/matrix_mult.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +72,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Practica1.dir/clean
+clean: CMakeFiles/bubble_sort.dir/clean
+clean: CMakeFiles/matrix_mult.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Practica1.dir
+# Target rules for target CMakeFiles/bubble_sort.dir
 
 # All Build rule for target.
-CMakeFiles/Practica1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica1.dir/build.make CMakeFiles/Practica1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica1.dir/build.make CMakeFiles/Practica1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1/build/CMakeFiles" --progress-num=1,2 "Built target Practica1"
-.PHONY : CMakeFiles/Practica1.dir/all
+CMakeFiles/bubble_sort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubble_sort.dir/build.make CMakeFiles/bubble_sort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubble_sort.dir/build.make CMakeFiles/bubble_sort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1/build/CMakeFiles" --progress-num=1,2 "Built target bubble_sort"
+.PHONY : CMakeFiles/bubble_sort.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Practica1.dir/rule: cmake_check_build_system
+CMakeFiles/bubble_sort.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1/build/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Practica1.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bubble_sort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1/build/CMakeFiles" 0
-.PHONY : CMakeFiles/Practica1.dir/rule
+.PHONY : CMakeFiles/bubble_sort.dir/rule
 
 # Convenience name for target.
-Practica1: CMakeFiles/Practica1.dir/rule
-.PHONY : Practica1
+bubble_sort: CMakeFiles/bubble_sort.dir/rule
+.PHONY : bubble_sort
 
 # clean rule for target.
-CMakeFiles/Practica1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica1.dir/build.make CMakeFiles/Practica1.dir/clean
-.PHONY : CMakeFiles/Practica1.dir/clean
+CMakeFiles/bubble_sort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubble_sort.dir/build.make CMakeFiles/bubble_sort.dir/clean
+.PHONY : CMakeFiles/bubble_sort.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/matrix_mult.dir
+
+# All Build rule for target.
+CMakeFiles/matrix_mult.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1/build/CMakeFiles" --progress-num=3,4 "Built target matrix_mult"
+.PHONY : CMakeFiles/matrix_mult.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/matrix_mult.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/matrix_mult.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1/build/CMakeFiles" 0
+.PHONY : CMakeFiles/matrix_mult.dir/rule
+
+# Convenience name for target.
+matrix_mult: CMakeFiles/matrix_mult.dir/rule
+.PHONY : matrix_mult
+
+# clean rule for target.
+CMakeFiles/matrix_mult.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/clean
+.PHONY : CMakeFiles/matrix_mult.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

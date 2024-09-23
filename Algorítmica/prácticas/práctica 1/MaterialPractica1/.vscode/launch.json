@@ -9,7 +9,7 @@
         "stopAtEntry": false,
         "externalConsole": false,
         "cwd": "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1",
-        "program": "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1/build/Practica1",
+        "program": "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1/build/matrix_mult",
         "MIMode": "gdb",
         "miDebuggerPath": "gdb",
         "setupCommands": [

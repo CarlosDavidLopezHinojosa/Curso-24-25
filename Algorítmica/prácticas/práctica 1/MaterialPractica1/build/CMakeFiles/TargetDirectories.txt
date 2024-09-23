@@ -1,3 +1,4 @@
-/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1/build/CMakeFiles/Practica1.dir
+/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1/build/CMakeFiles/bubble_sort.dir
+/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1/build/CMakeFiles/matrix_mult.dir
 /home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1/build/CMakeFiles/edit_cache.dir
 /home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1/build/CMakeFiles/rebuild_cache.dir

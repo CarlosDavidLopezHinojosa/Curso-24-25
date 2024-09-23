@@ -117,41 +117,78 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Practica1
+# Target rules for targets named bubble_sort
 
 # Build rule for target.
-Practica1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Practica1
-.PHONY : Practica1
+bubble_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bubble_sort
+.PHONY : bubble_sort
 
 # fast build rule for target.
-Practica1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica1.dir/build.make CMakeFiles/Practica1.dir/build
-.PHONY : Practica1/fast
+bubble_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubble_sort.dir/build.make CMakeFiles/bubble_sort.dir/build
+.PHONY : bubble_sort/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+#=============================================================================
+# Target rules for targets named matrix_mult
+
+# Build rule for target.
+matrix_mult: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matrix_mult
+.PHONY : matrix_mult
+
+# fast build rule for target.
+matrix_mult/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/build
+.PHONY : matrix_mult/fast
+
+bubble_sort.o: bubble_sort.cpp.o
+.PHONY : bubble_sort.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica1.dir/build.make CMakeFiles/Practica1.dir/main.cpp.o
-.PHONY : main.cpp.o
+bubble_sort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubble_sort.dir/build.make CMakeFiles/bubble_sort.dir/bubble_sort.cpp.o
+.PHONY : bubble_sort.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+bubble_sort.i: bubble_sort.cpp.i
+.PHONY : bubble_sort.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica1.dir/build.make CMakeFiles/Practica1.dir/main.cpp.i
-.PHONY : main.cpp.i
+bubble_sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubble_sort.dir/build.make CMakeFiles/bubble_sort.dir/bubble_sort.cpp.i
+.PHONY : bubble_sort.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+bubble_sort.s: bubble_sort.cpp.s
+.PHONY : bubble_sort.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica1.dir/build.make CMakeFiles/Practica1.dir/main.cpp.s
-.PHONY : main.cpp.s
+bubble_sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubble_sort.dir/build.make CMakeFiles/bubble_sort.dir/bubble_sort.cpp.s
+.PHONY : bubble_sort.cpp.s
+
+matrix_multiplication.o: matrix_multiplication.cpp.o
+.PHONY : matrix_multiplication.o
+
+# target to build an object file
+matrix_multiplication.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/matrix_multiplication.cpp.o
+.PHONY : matrix_multiplication.cpp.o
+
+matrix_multiplication.i: matrix_multiplication.cpp.i
+.PHONY : matrix_multiplication.i
+
+# target to preprocess a source file
+matrix_multiplication.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/matrix_multiplication.cpp.i
+.PHONY : matrix_multiplication.cpp.i
+
+matrix_multiplication.s: matrix_multiplication.cpp.s
+.PHONY : matrix_multiplication.s
+
+# target to generate assembly for a file
+matrix_multiplication.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/matrix_multiplication.cpp.s
+.PHONY : matrix_multiplication.cpp.s
 
 # Help Target
 help:
@@ -161,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Practica1"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... bubble_sort"
+	@echo "... matrix_mult"
+	@echo "... bubble_sort.o"
+	@echo "... bubble_sort.i"
+	@echo "... bubble_sort.s"
+	@echo "... matrix_multiplication.o"
+	@echo "... matrix_multiplication.i"
+	@echo "... matrix_multiplication.s"
 .PHONY : help
 
 
