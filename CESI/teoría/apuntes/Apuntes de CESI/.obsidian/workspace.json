@@ -8,29 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6535797f40c6efa6",
+            "id": "a3c33defe7bb56f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "2024-09-24.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "18a0964444941e15",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "dfd496effbbf9796",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "2024-09-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "2024-09-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "2024-09-24.md"
               }
             }
           }
@@ -160,8 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6535797f40c6efa6",
+  "active": "a3c33defe7bb56f1",
   "lastOpenFiles": [
+    "images/Captura desde 2024-09-24 10-42-14.png",
+    "images/Captura desde 2024-09-24 09-08-13.png",
+    "images/Captura desde 2024-09-24 09-04-57.png",
+    "images/Captura desde 2024-09-24 08-59-18.png",
+    "images",
+    "Registro de Clases de Teoría.md",
+    "2024-09-24.md",
     "Welcome.md"
   ]
 }
