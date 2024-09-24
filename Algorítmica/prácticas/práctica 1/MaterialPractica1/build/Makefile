@@ -117,41 +117,247 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Practica1
+# Target rules for targets named burbuja
 
 # Build rule for target.
-Practica1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Practica1
-.PHONY : Practica1
+burbuja: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 burbuja
+.PHONY : burbuja
 
 # fast build rule for target.
-Practica1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica1.dir/build.make CMakeFiles/Practica1.dir/build
-.PHONY : Practica1/fast
+burbuja/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/burbuja.dir/build.make CMakeFiles/burbuja.dir/build
+.PHONY : burbuja/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+#=============================================================================
+# Target rules for targets named matrix_mult
+
+# Build rule for target.
+matrix_mult: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matrix_mult
+.PHONY : matrix_mult
+
+# fast build rule for target.
+matrix_mult/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/build
+.PHONY : matrix_mult/fast
+
+#=============================================================================
+# Target rules for targets named det
+
+# Build rule for target.
+det: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 det
+.PHONY : det
+
+# fast build rule for target.
+det/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/det.dir/build.make CMakeFiles/det.dir/build
+.PHONY : det/fast
+
+DeterminanteRecursivo/DeterminanteRecursivo.o: DeterminanteRecursivo/DeterminanteRecursivo.cpp.o
+.PHONY : DeterminanteRecursivo/DeterminanteRecursivo.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica1.dir/build.make CMakeFiles/Practica1.dir/main.cpp.o
-.PHONY : main.cpp.o
+DeterminanteRecursivo/DeterminanteRecursivo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/det.dir/build.make CMakeFiles/det.dir/DeterminanteRecursivo/DeterminanteRecursivo.cpp.o
+.PHONY : DeterminanteRecursivo/DeterminanteRecursivo.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+DeterminanteRecursivo/DeterminanteRecursivo.i: DeterminanteRecursivo/DeterminanteRecursivo.cpp.i
+.PHONY : DeterminanteRecursivo/DeterminanteRecursivo.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica1.dir/build.make CMakeFiles/Practica1.dir/main.cpp.i
-.PHONY : main.cpp.i
+DeterminanteRecursivo/DeterminanteRecursivo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/det.dir/build.make CMakeFiles/det.dir/DeterminanteRecursivo/DeterminanteRecursivo.cpp.i
+.PHONY : DeterminanteRecursivo/DeterminanteRecursivo.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+DeterminanteRecursivo/DeterminanteRecursivo.s: DeterminanteRecursivo/DeterminanteRecursivo.cpp.s
+.PHONY : DeterminanteRecursivo/DeterminanteRecursivo.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica1.dir/build.make CMakeFiles/Practica1.dir/main.cpp.s
-.PHONY : main.cpp.s
+DeterminanteRecursivo/DeterminanteRecursivo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/det.dir/build.make CMakeFiles/det.dir/DeterminanteRecursivo/DeterminanteRecursivo.cpp.s
+.PHONY : DeterminanteRecursivo/DeterminanteRecursivo.cpp.s
+
+DeterminanteRecursivo/det.o: DeterminanteRecursivo/det.cpp.o
+.PHONY : DeterminanteRecursivo/det.o
+
+# target to build an object file
+DeterminanteRecursivo/det.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/det.dir/build.make CMakeFiles/det.dir/DeterminanteRecursivo/det.cpp.o
+.PHONY : DeterminanteRecursivo/det.cpp.o
+
+DeterminanteRecursivo/det.i: DeterminanteRecursivo/det.cpp.i
+.PHONY : DeterminanteRecursivo/det.i
+
+# target to preprocess a source file
+DeterminanteRecursivo/det.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/det.dir/build.make CMakeFiles/det.dir/DeterminanteRecursivo/det.cpp.i
+.PHONY : DeterminanteRecursivo/det.cpp.i
+
+DeterminanteRecursivo/det.s: DeterminanteRecursivo/det.cpp.s
+.PHONY : DeterminanteRecursivo/det.s
+
+# target to generate assembly for a file
+DeterminanteRecursivo/det.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/det.dir/build.make CMakeFiles/det.dir/DeterminanteRecursivo/det.cpp.s
+.PHONY : DeterminanteRecursivo/det.cpp.s
+
+MultplicaciondeMatrices/MultiplicacionMatriz.o: MultplicaciondeMatrices/MultiplicacionMatriz.cpp.o
+.PHONY : MultplicaciondeMatrices/MultiplicacionMatriz.o
+
+# target to build an object file
+MultplicaciondeMatrices/MultiplicacionMatriz.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/MultplicaciondeMatrices/MultiplicacionMatriz.cpp.o
+.PHONY : MultplicaciondeMatrices/MultiplicacionMatriz.cpp.o
+
+MultplicaciondeMatrices/MultiplicacionMatriz.i: MultplicaciondeMatrices/MultiplicacionMatriz.cpp.i
+.PHONY : MultplicaciondeMatrices/MultiplicacionMatriz.i
+
+# target to preprocess a source file
+MultplicaciondeMatrices/MultiplicacionMatriz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/MultplicaciondeMatrices/MultiplicacionMatriz.cpp.i
+.PHONY : MultplicaciondeMatrices/MultiplicacionMatriz.cpp.i
+
+MultplicaciondeMatrices/MultiplicacionMatriz.s: MultplicaciondeMatrices/MultiplicacionMatriz.cpp.s
+.PHONY : MultplicaciondeMatrices/MultiplicacionMatriz.s
+
+# target to generate assembly for a file
+MultplicaciondeMatrices/MultiplicacionMatriz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/MultplicaciondeMatrices/MultiplicacionMatriz.cpp.s
+.PHONY : MultplicaciondeMatrices/MultiplicacionMatriz.cpp.s
+
+MultplicaciondeMatrices/matrix_mult.o: MultplicaciondeMatrices/matrix_mult.cpp.o
+.PHONY : MultplicaciondeMatrices/matrix_mult.o
+
+# target to build an object file
+MultplicaciondeMatrices/matrix_mult.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/MultplicaciondeMatrices/matrix_mult.cpp.o
+.PHONY : MultplicaciondeMatrices/matrix_mult.cpp.o
+
+MultplicaciondeMatrices/matrix_mult.i: MultplicaciondeMatrices/matrix_mult.cpp.i
+.PHONY : MultplicaciondeMatrices/matrix_mult.i
+
+# target to preprocess a source file
+MultplicaciondeMatrices/matrix_mult.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/MultplicaciondeMatrices/matrix_mult.cpp.i
+.PHONY : MultplicaciondeMatrices/matrix_mult.cpp.i
+
+MultplicaciondeMatrices/matrix_mult.s: MultplicaciondeMatrices/matrix_mult.cpp.s
+.PHONY : MultplicaciondeMatrices/matrix_mult.s
+
+# target to generate assembly for a file
+MultplicaciondeMatrices/matrix_mult.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/MultplicaciondeMatrices/matrix_mult.cpp.s
+.PHONY : MultplicaciondeMatrices/matrix_mult.cpp.s
+
+OrdenacionBurbuja/OrdenacionBurbuja.o: OrdenacionBurbuja/OrdenacionBurbuja.cpp.o
+.PHONY : OrdenacionBurbuja/OrdenacionBurbuja.o
+
+# target to build an object file
+OrdenacionBurbuja/OrdenacionBurbuja.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/burbuja.dir/build.make CMakeFiles/burbuja.dir/OrdenacionBurbuja/OrdenacionBurbuja.cpp.o
+.PHONY : OrdenacionBurbuja/OrdenacionBurbuja.cpp.o
+
+OrdenacionBurbuja/OrdenacionBurbuja.i: OrdenacionBurbuja/OrdenacionBurbuja.cpp.i
+.PHONY : OrdenacionBurbuja/OrdenacionBurbuja.i
+
+# target to preprocess a source file
+OrdenacionBurbuja/OrdenacionBurbuja.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/burbuja.dir/build.make CMakeFiles/burbuja.dir/OrdenacionBurbuja/OrdenacionBurbuja.cpp.i
+.PHONY : OrdenacionBurbuja/OrdenacionBurbuja.cpp.i
+
+OrdenacionBurbuja/OrdenacionBurbuja.s: OrdenacionBurbuja/OrdenacionBurbuja.cpp.s
+.PHONY : OrdenacionBurbuja/OrdenacionBurbuja.s
+
+# target to generate assembly for a file
+OrdenacionBurbuja/OrdenacionBurbuja.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/burbuja.dir/build.make CMakeFiles/burbuja.dir/OrdenacionBurbuja/OrdenacionBurbuja.cpp.s
+.PHONY : OrdenacionBurbuja/OrdenacionBurbuja.cpp.s
+
+OrdenacionBurbuja/burbuja.o: OrdenacionBurbuja/burbuja.cpp.o
+.PHONY : OrdenacionBurbuja/burbuja.o
+
+# target to build an object file
+OrdenacionBurbuja/burbuja.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/burbuja.dir/build.make CMakeFiles/burbuja.dir/OrdenacionBurbuja/burbuja.cpp.o
+.PHONY : OrdenacionBurbuja/burbuja.cpp.o
+
+OrdenacionBurbuja/burbuja.i: OrdenacionBurbuja/burbuja.cpp.i
+.PHONY : OrdenacionBurbuja/burbuja.i
+
+# target to preprocess a source file
+OrdenacionBurbuja/burbuja.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/burbuja.dir/build.make CMakeFiles/burbuja.dir/OrdenacionBurbuja/burbuja.cpp.i
+.PHONY : OrdenacionBurbuja/burbuja.cpp.i
+
+OrdenacionBurbuja/burbuja.s: OrdenacionBurbuja/burbuja.cpp.s
+.PHONY : OrdenacionBurbuja/burbuja.s
+
+# target to generate assembly for a file
+OrdenacionBurbuja/burbuja.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/burbuja.dir/build.make CMakeFiles/burbuja.dir/OrdenacionBurbuja/burbuja.cpp.s
+.PHONY : OrdenacionBurbuja/burbuja.cpp.s
+
+common.o: common.cpp.o
+.PHONY : common.o
+
+# target to build an object file
+common.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/burbuja.dir/build.make CMakeFiles/burbuja.dir/common.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/common.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/det.dir/build.make CMakeFiles/det.dir/common.cpp.o
+.PHONY : common.cpp.o
+
+common.i: common.cpp.i
+.PHONY : common.i
+
+# target to preprocess a source file
+common.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/burbuja.dir/build.make CMakeFiles/burbuja.dir/common.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/common.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/det.dir/build.make CMakeFiles/det.dir/common.cpp.i
+.PHONY : common.cpp.i
+
+common.s: common.cpp.s
+.PHONY : common.s
+
+# target to generate assembly for a file
+common.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/burbuja.dir/build.make CMakeFiles/burbuja.dir/common.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/common.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/det.dir/build.make CMakeFiles/det.dir/common.cpp.s
+.PHONY : common.cpp.s
+
+sistemaEcuaciones.o: sistemaEcuaciones.cpp.o
+.PHONY : sistemaEcuaciones.o
+
+# target to build an object file
+sistemaEcuaciones.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/burbuja.dir/build.make CMakeFiles/burbuja.dir/sistemaEcuaciones.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/sistemaEcuaciones.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/det.dir/build.make CMakeFiles/det.dir/sistemaEcuaciones.cpp.o
+.PHONY : sistemaEcuaciones.cpp.o
+
+sistemaEcuaciones.i: sistemaEcuaciones.cpp.i
+.PHONY : sistemaEcuaciones.i
+
+# target to preprocess a source file
+sistemaEcuaciones.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/burbuja.dir/build.make CMakeFiles/burbuja.dir/sistemaEcuaciones.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/sistemaEcuaciones.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/det.dir/build.make CMakeFiles/det.dir/sistemaEcuaciones.cpp.i
+.PHONY : sistemaEcuaciones.cpp.i
+
+sistemaEcuaciones.s: sistemaEcuaciones.cpp.s
+.PHONY : sistemaEcuaciones.s
+
+# target to generate assembly for a file
+sistemaEcuaciones.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/burbuja.dir/build.make CMakeFiles/burbuja.dir/sistemaEcuaciones.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mult.dir/build.make CMakeFiles/matrix_mult.dir/sistemaEcuaciones.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/det.dir/build.make CMakeFiles/det.dir/sistemaEcuaciones.cpp.s
+.PHONY : sistemaEcuaciones.cpp.s
 
 # Help Target
 help:
@@ -161,10 +367,33 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Practica1"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... burbuja"
+	@echo "... det"
+	@echo "... matrix_mult"
+	@echo "... DeterminanteRecursivo/DeterminanteRecursivo.o"
+	@echo "... DeterminanteRecursivo/DeterminanteRecursivo.i"
+	@echo "... DeterminanteRecursivo/DeterminanteRecursivo.s"
+	@echo "... DeterminanteRecursivo/det.o"
+	@echo "... DeterminanteRecursivo/det.i"
+	@echo "... DeterminanteRecursivo/det.s"
+	@echo "... MultplicaciondeMatrices/MultiplicacionMatriz.o"
+	@echo "... MultplicaciondeMatrices/MultiplicacionMatriz.i"
+	@echo "... MultplicaciondeMatrices/MultiplicacionMatriz.s"
+	@echo "... MultplicaciondeMatrices/matrix_mult.o"
+	@echo "... MultplicaciondeMatrices/matrix_mult.i"
+	@echo "... MultplicaciondeMatrices/matrix_mult.s"
+	@echo "... OrdenacionBurbuja/OrdenacionBurbuja.o"
+	@echo "... OrdenacionBurbuja/OrdenacionBurbuja.i"
+	@echo "... OrdenacionBurbuja/OrdenacionBurbuja.s"
+	@echo "... OrdenacionBurbuja/burbuja.o"
+	@echo "... OrdenacionBurbuja/burbuja.i"
+	@echo "... OrdenacionBurbuja/burbuja.s"
+	@echo "... common.o"
+	@echo "... common.i"
+	@echo "... common.s"
+	@echo "... sistemaEcuaciones.o"
+	@echo "... sistemaEcuaciones.i"
+	@echo "... sistemaEcuaciones.s"
 .PHONY : help
 
 

@@ -1,0 +1,1 @@
+/usr/bin/g++ CMakeFiles/matrix_mult.dir/MultplicaciondeMatrices/matrix_mult.cpp.o CMakeFiles/matrix_mult.dir/MultplicaciondeMatrices/MultiplicacionMatriz.cpp.o CMakeFiles/matrix_mult.dir/common.cpp.o CMakeFiles/matrix_mult.dir/sistemaEcuaciones.cpp.o -o matrix_mult 

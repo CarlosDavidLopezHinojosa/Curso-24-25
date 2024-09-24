@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Practica1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "burbuja::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-burbuja-7f01543bf3d29f731379.json",
+					"name" : "burbuja",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "det::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-det-a51ae55e6efba29214d2.json",
+					"name" : "det",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix_mult::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix_mult-bf4c4458c44c81833f25.json",
+					"name" : "matrix_mult",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/carlos/Escritorio/Curso 24-25/Algor\u00edtmica/pr\u00e1cticas/pr\u00e1ctica 1/MaterialPractica1/build",
+		"source" : "/home/carlos/Escritorio/Curso 24-25/Algor\u00edtmica/pr\u00e1cticas/pr\u00e1ctica 1/MaterialPractica1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
