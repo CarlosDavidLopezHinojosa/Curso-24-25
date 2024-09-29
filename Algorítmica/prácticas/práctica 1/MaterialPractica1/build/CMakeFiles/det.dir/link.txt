@@ -1,1 +1,0 @@
-/usr/bin/g++ CMakeFiles/det.dir/DeterminanteRecursivo/det.cpp.o CMakeFiles/det.dir/DeterminanteRecursivo/DeterminanteRecursivo.cpp.o CMakeFiles/det.dir/common.cpp.o CMakeFiles/det.dir/sistemaEcuaciones.cpp.o -o det 

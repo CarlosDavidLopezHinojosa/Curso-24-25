@@ -1,1 +1,0 @@
-/usr/bin/g++ CMakeFiles/burbuja.dir/OrdenacionBurbuja/burbuja.cpp.o CMakeFiles/burbuja.dir/OrdenacionBurbuja/OrdenacionBurbuja.cpp.o CMakeFiles/burbuja.dir/common.cpp.o CMakeFiles/burbuja.dir/sistemaEcuaciones.cpp.o -o burbuja 

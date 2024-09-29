@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-09-18.md",
+                "file": "2024-09-24.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-09-18.md",
+                "file": "2024-09-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-09-18.md",
+                "file": "2024-09-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-09-18.md"
+                "file": "2024-09-24.md"
               }
             }
           }
@@ -171,12 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd6c2f982289f2f6",
+  "active": "00b69c3550728a36",
   "lastOpenFiles": [
-    "images/Ejemplos.md",
     "2024-09-18.md",
-    "images/arpanet.png",
+    "2024-09-24.md",
     "Registro de Clases de Teoría.md",
+    "images/Ejemplos.md",
+    "images/arpanet.png",
     "images",
     "Welcome.md"
   ]

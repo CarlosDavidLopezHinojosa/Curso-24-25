@@ -1,0 +1,17 @@
+Tiempos Reales de Cálculo del Determinante (ms):
+Tamaño: 8 x 8, Tiempo: 21104 ms
+Tamaño: 2 x 2, Tiempo: 0 ms
+Tamaño: 4 x 4, Tiempo: 9 ms
+Tamaño: 4 x 4, Tiempo: 9 ms
+Tamaño: 4 x 4, Tiempo: 9 ms
+
+Coeficientes del ajuste polinómico:
+a0: -2.93422
+a1: 0.523485
+
+Tiempos estimados (ms):
+Tamaño: 8 x 8, Tiempo estimado: 21104 ms
+Tamaño: 2 x 2, Tiempo estimado: -1.88725 ms
+Tamaño: 4 x 4, Tiempo estimado: 9.62943 ms
+Tamaño: 4 x 4, Tiempo estimado: 9.62943 ms
+Tamaño: 4 x 4, Tiempo estimado: 9.62943 ms
