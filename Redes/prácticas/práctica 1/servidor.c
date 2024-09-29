@@ -9,7 +9,8 @@
 #define PORT 12345  // Puerto fijo
 #define BUFFER_SIZE 1024
 
-int main() {
+int main() 
+{
     int sockfd;
     struct sockaddr_in server_addr, client_addr;
     char buffer[BUFFER_SIZE];
