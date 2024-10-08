@@ -14,4 +14,5 @@ add_executable(cbg_process cbg_process.cpp common_code.cpp
 
 add_executable(cbg_process_test_common_code test_common_code.cpp common_code.cpp
     common_code.hpp)
+add_executable(contraste_brillo_gamma contraste_brillo_gamma.cpp common_code.cpp common_code.hpp)
 set_target_properties(cbg_process_test_common_code PROPERTIES OUTPUT_NAME "test_common_code")

@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <cmath> // Para calcular valores
+#include <cmath>
 #include "funciones.hpp"
 
 // Función para convertir microsegundos a un formato legible
@@ -53,31 +53,31 @@ void menu()
 
 void convertirTiempo(double microsegundos) 
 {
-    double segundos = microsegundos / 1e6;
+    long double segundos = microsegundos / 1e6;
     
-    const int SECONDS_IN_MINUTE = 60;
-    const int SECONDS_IN_HOUR = SECONDS_IN_MINUTE * 60;
-    const int SECONDS_IN_DAY = SECONDS_IN_HOUR * 24;
-    const int SECONDS_IN_WEEK = SECONDS_IN_DAY * 7;
-    const int SECONDS_IN_MONTH = SECONDS_IN_DAY * 30;
-    const int SECONDS_IN_YEAR = SECONDS_IN_DAY * 365;
+    const long int SECONDS_IN_MINUTE = 60;
+    const long int SECONDS_IN_HOUR = SECONDS_IN_MINUTE * 60;
+    const long int SECONDS_IN_DAY = SECONDS_IN_HOUR * 24;
+    const long int SECONDS_IN_WEEK = SECONDS_IN_DAY * 7;
+    const long int SECONDS_IN_MONTH = SECONDS_IN_DAY * 30;
+    const long int SECONDS_IN_YEAR = SECONDS_IN_DAY * 365;
 
-    int años = segundos / SECONDS_IN_YEAR;
+    long int años = segundos / SECONDS_IN_YEAR;
     segundos = fmod(segundos, SECONDS_IN_YEAR);
 
-    int meses = segundos / SECONDS_IN_MONTH;
+    long int meses = segundos / SECONDS_IN_MONTH;
     segundos = fmod(segundos, SECONDS_IN_MONTH);
 
-    int semanas = segundos / SECONDS_IN_WEEK;
+    long int semanas = segundos / SECONDS_IN_WEEK;
     segundos = fmod(segundos, SECONDS_IN_WEEK);
 
-    int días = segundos / SECONDS_IN_DAY;
+    long int días = segundos / SECONDS_IN_DAY;
     segundos = fmod(segundos, SECONDS_IN_DAY);
 
-    int horas = segundos / SECONDS_IN_HOUR;
+    long int horas = segundos / SECONDS_IN_HOUR;
     segundos = fmod(segundos, SECONDS_IN_HOUR);
 
-    int minutos = segundos / SECONDS_IN_MINUTE;
+    long int minutos = segundos / SECONDS_IN_MINUTE;
     segundos = fmod(segundos, SECONDS_IN_MINUTE);
 
     std::cout << "Tiempo estimado: ";
@@ -98,13 +98,13 @@ void ordenacionBurbuja()
     std::cin >> nMin;
     std::cout << "Ingrese el valor máximo de n: ";
     std::cin >> nMax;
-    std::cout << "Ingrese el incremento: ";
-    std::cin >> incremento;
     std::cout << "Ingrese el número de repeticiones: ";
     std::cin >> repeticiones;
+    std::cout << "Ingrese el incremento: ";
+    std::cin >> incremento;
 
     std::vector<double> tiemposReales, numeroElementos;
-    tiemposOrdenacionBurbuja(nMin, nMax, incremento, repeticiones, tiemposReales, numeroElementos);
+    tiemposOrdenacionBurbuja(nMin, nMax,repeticiones, incremento, tiemposReales, numeroElementos);
 
     std::vector<double> coeficientesAjuste;
     ajusteCuadratico(numeroElementos, tiemposReales, coeficientesAjuste);
@@ -124,7 +124,7 @@ void ordenacionBurbuja()
         std::cin >> nEstimado;
         if (nEstimado == 0) break;
         
-        double tiempoEstimado = calcularTiempoEstimadoPolinomico(nEstimado, coeficientesAjuste);
+        long double tiempoEstimado = calcularTiempoEstimadoPolinomico(nEstimado, coeficientesAjuste);
         convertirTiempo(tiempoEstimado); // Mostrar tiempo estimado en formato legible
     }
 
@@ -134,16 +134,16 @@ void ordenacionBurbuja()
 // Implementación de la función para la multiplicación de matrices
 void productoMatricesCuadradas() 
 {
-    int nMin, nMax, repeticiones;
+    int nMin, nMax, incremento;
     std::cout << "Ingrese el valor mínimo de n: ";
     std::cin >> nMin;
     std::cout << "Ingrese el valor máximo de n: ";
     std::cin >> nMax;
-    std::cout << "Ingrese el número de repeticiones: ";
-    std::cin >> repeticiones;
+    std::cout << "Ingrese el incremento: ";
+    std::cin >> incremento;
 
     std::vector<double> tiemposReales, numeroElementos;
-    tiempoMultiplicacionMatrices(nMin, nMax, repeticiones, tiemposReales, numeroElementos);
+    tiempoMultiplicacionMatrices(nMin, nMax, incremento, tiemposReales, numeroElementos);
 
     std::vector<double> coeficientesAjuste;
     ajusteCubico(numeroElementos, tiemposReales, coeficientesAjuste);
@@ -163,7 +163,7 @@ void productoMatricesCuadradas()
         std::cin >> nEstimado;
         if (nEstimado == 0) break;
         
-        double tiempoEstimado = calcularTiempoEstimadoPolinomico(nEstimado, coeficientesAjuste);
+        long double tiempoEstimado = calcularTiempoEstimadoPolinomico(nEstimado, coeficientesAjuste);
         convertirTiempo(tiempoEstimado); // Mostrar tiempo estimado en formato legible
     }
 
@@ -173,16 +173,16 @@ void productoMatricesCuadradas()
 // Implementación de la función para el cálculo del determinante recursivo
 void determinanteRecursivo() 
 {
-    int nMin, nMax, repeticiones;
+    int nMin, nMax, incremento;
     std::cout << "Ingrese el valor mínimo de n: ";
     std::cin >> nMin;
     std::cout << "Ingrese el valor máximo de n: ";
     std::cin >> nMax;
-    std::cout << "Ingrese el número de repeticiones: ";
-    std::cin >> repeticiones;
+    std::cout << "Ingrese el número de incremento: ";
+    std::cin >> incremento;
 
     std::vector<double> tiemposReales, numeroElementos;
-    tiempoDeterminanteRecursivo(nMin, nMax, repeticiones, tiemposReales, numeroElementos);
+    tiempoDeterminanteRecursivo(nMin, nMax, incremento, tiemposReales, numeroElementos);
 
     std::vector<double> coeficientesAjuste;
     ajusteFactorial(numeroElementos, tiemposReales, coeficientesAjuste);
@@ -202,9 +202,9 @@ void determinanteRecursivo()
         std::cin >> nEstimado;
         if (nEstimado == 0) break;
         
-        double tiempoEstimado = calcularTiempoEstimadoFactorial(nEstimado, coeficientesAjuste);
+        long double tiempoEstimado = calcularTiempoEstimadoFactorial(nEstimado, coeficientesAjuste);
         convertirTiempo(tiempoEstimado); // Mostrar tiempo estimado en formato legible
     }
 
-    guardarDatos("datosDeterminantesRecursivo.txt",numeroElementos,tiemposReales,tiemposEstimados);
+    guardarDatos("datosDeterminanteRecursivo.txt",numeroElementos,tiemposReales,tiemposEstimados);
 }

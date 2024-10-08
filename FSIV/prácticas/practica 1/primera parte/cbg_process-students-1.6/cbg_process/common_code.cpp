@@ -87,10 +87,7 @@ fsiv_cbg_process(const cv::Mat &in,
         cv::pow(V,gamma,V);
         cv::multiply(cv::Scalar::all(contrast),V,V);
         V += cv::Scalar::all(brightness);
-
-        cv::min(V,1.0,V);
-        cv::max(V,0.0,V);
-
+        
         cv::merge(channels,out);
         out = fsiv_convert_hsv_to_bgr(out);
     }
@@ -99,9 +96,6 @@ fsiv_cbg_process(const cv::Mat &in,
         cv::pow(out, gamma, out);
         cv::multiply(cv::Scalar::all(contrast),out,out);
         out += cv::Scalar::all(brightness);
-
-        cv::min(out, 1.0, out);
-        cv::max(out,0.0,out);
     }
     
     fsiv_convert_image_float_to_byte(out).copyTo(out);

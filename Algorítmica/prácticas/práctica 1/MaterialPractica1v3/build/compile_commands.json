@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1v3/build",
+  "command": "/usr/bin/g++   -g -std=gnu++11 -o CMakeFiles/Practica1.dir/main.cpp.o -c \"/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1v3/main.cpp\"",
+  "file": "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1v3/main.cpp",
+  "output": "CMakeFiles/Practica1.dir/main.cpp.o"
+},
+{
+  "directory": "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1v3/build",
+  "command": "/usr/bin/g++   -g -std=gnu++11 -o CMakeFiles/Practica1.dir/funciones.cpp.o -c \"/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1v3/funciones.cpp\"",
+  "file": "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1v3/funciones.cpp",
+  "output": "CMakeFiles/Practica1.dir/funciones.cpp.o"
+},
+{
+  "directory": "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1v3/build",
+  "command": "/usr/bin/g++   -g -std=gnu++11 -o CMakeFiles/Practica1.dir/ClaseTiempo.cpp.o -c \"/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1v3/ClaseTiempo.cpp\"",
+  "file": "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1v3/ClaseTiempo.cpp",
+  "output": "CMakeFiles/Practica1.dir/ClaseTiempo.cpp.o"
+},
+{
+  "directory": "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1v3/build",
+  "command": "/usr/bin/g++   -g -std=gnu++11 -o CMakeFiles/Practica1.dir/sistemaEcuaciones.cpp.o -c \"/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1v3/sistemaEcuaciones.cpp\"",
+  "file": "/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/MaterialPractica1v3/sistemaEcuaciones.cpp",
+  "output": "CMakeFiles/Practica1.dir/sistemaEcuaciones.cpp.o"
+}
+]
