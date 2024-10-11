@@ -1,4 +1,0 @@
-/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/cbg_process/build/CMakeFiles/cbg_process.dir
-/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/cbg_process/build/CMakeFiles/cbg_process_test_common_code.dir
-/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/cbg_process/build/CMakeFiles/edit_cache.dir
-/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/cbg_process/build/CMakeFiles/rebuild_cache.dir

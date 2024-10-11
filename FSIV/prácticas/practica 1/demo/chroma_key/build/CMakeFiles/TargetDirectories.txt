@@ -1,5 +1,0 @@
-/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/chroma_key/build/CMakeFiles/chroma_key.dir
-/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/chroma_key/build/CMakeFiles/chroma_key_test_common_code.dir
-/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/chroma_key/build/CMakeFiles/mascara.dir
-/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/chroma_key/build/CMakeFiles/edit_cache.dir
-/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/chroma_key/build/CMakeFiles/rebuild_cache.dir

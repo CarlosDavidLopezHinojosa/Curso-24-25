@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/Practica1.dir/main.cpp.o CMakeFiles/Practica1.dir/funciones.cpp.o CMakeFiles/Practica1.dir/ClaseTiempo.cpp.o CMakeFiles/Practica1.dir/sistemaEcuaciones.cpp.o -o Practica1  -lrt 

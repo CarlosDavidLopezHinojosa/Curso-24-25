@@ -1,4 +1,0 @@
-/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 2/img_equalization-students-1.9/img_equalization/build/CMakeFiles/img_equalization.dir
-/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 2/img_equalization-students-1.9/img_equalization/build/CMakeFiles/img_equalization_test_common_code.dir
-/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 2/img_equalization-students-1.9/img_equalization/build/CMakeFiles/edit_cache.dir
-/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 2/img_equalization-students-1.9/img_equalization/build/CMakeFiles/rebuild_cache.dir

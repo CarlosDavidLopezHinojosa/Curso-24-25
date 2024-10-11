@@ -1,3 +1,0 @@
-/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/Entrega/LopezHinojosa/LopezHinojosa_Completa/build/CMakeFiles/Practica1.dir
-/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/Entrega/LopezHinojosa/LopezHinojosa_Completa/build/CMakeFiles/edit_cache.dir
-/home/carlos/Escritorio/Curso 24-25/Algorítmica/prácticas/práctica 1/Entrega/LopezHinojosa/LopezHinojosa_Completa/build/CMakeFiles/rebuild_cache.dir
