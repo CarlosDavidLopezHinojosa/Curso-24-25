@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/cbg_process/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/cbg_process.dir/cbg_process.cpp.o -c \"/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/cbg_process/cbg_process.cpp\"",
+  "file": "/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/cbg_process/cbg_process.cpp",
+  "output": "CMakeFiles/cbg_process.dir/cbg_process.cpp.o"
+},
+{
+  "directory": "/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/cbg_process/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/cbg_process.dir/common_code.cpp.o -c \"/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/cbg_process/common_code.cpp\"",
+  "file": "/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/cbg_process/common_code.cpp",
+  "output": "CMakeFiles/cbg_process.dir/common_code.cpp.o"
+},
+{
+  "directory": "/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/cbg_process/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/cbg_process_test_common_code.dir/test_common_code.cpp.o -c \"/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/cbg_process/test_common_code.cpp\"",
+  "file": "/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/cbg_process/test_common_code.cpp",
+  "output": "CMakeFiles/cbg_process_test_common_code.dir/test_common_code.cpp.o"
+},
+{
+  "directory": "/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/cbg_process/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/cbg_process_test_common_code.dir/common_code.cpp.o -c \"/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/cbg_process/common_code.cpp\"",
+  "file": "/home/carlos/Escritorio/Curso 24-25/FSIV/prácticas/practica 1/demo/cbg_process/common_code.cpp",
+  "output": "CMakeFiles/cbg_process_test_common_code.dir/common_code.cpp.o"
+}
+]

@@ -40,7 +40,7 @@ Mensaje interpretarMensajeUsuario(Mensaje * mensaje);
 /**
  * @brief Envia el mensaje elegido por el usuario al servidor
  */
-void responderMensajeUsuario();
+void interactuarServidor(Usuario * usuario);
 
 void jugarBlackJack();
 

@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "img_equalization",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "img_equalization::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-img_equalization-Debug-09c42966dfe7a82e15ba.json",
+					"name" : "img_equalization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "img_equalization_test_common_code::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-img_equalization_test_common_code-Debug-badb04d67b54e25e69db.json",
+					"name" : "img_equalization_test_common_code",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/carlos/Escritorio/Curso 24-25/FSIV/pr\u00e1cticas/practica 2/img_equalization-students-1.9/img_equalization/build",
+		"source" : "/home/carlos/Escritorio/Curso 24-25/FSIV/pr\u00e1cticas/practica 2/img_equalization-students-1.9/img_equalization"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

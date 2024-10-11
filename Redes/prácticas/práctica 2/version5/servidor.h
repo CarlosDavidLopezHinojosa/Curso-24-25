@@ -7,6 +7,76 @@
 #define MAX_PARTIDAS 10
 
 
+
+typedef struct Nodo
+{
+    Usuario * user;
+    struct Nodo * anterior;   
+    struct Nodo * siguiente;  
+} Nodo; 
+
+typedef struct Cola
+{
+    struct Nodo * frente;
+    struct Nodo * final;
+} Cola;
+
+typedef struct Partida
+{
+    Usuario * usuario1;
+    Usuario * usuario2;
+    int estaLibre;
+}Partida;
+
+
+/**
+ * @brief Crea una cola que estará vacia
+ * 
+ * @return La nueva cola
+ */
+Cola * crearCola();
+
+/**
+ * @brief Mete a un nuevo usuario en la cola
+ * 
+ * @param cola Refencia a la cola con la que se este trabajando
+ * @param user Nuevo usuario que este esparando en la cola
+ */
+void encolar(Cola * cola, Usuario * user);
+
+/**
+ * @brief Quita de la cola al primer usuario de esta
+ * 
+ * @param cola Referencia a la cola con la que se quiera trabajar
+ * @return El primer usuario de la cola
+ */
+Usuario * desencolar(Cola * cola);
+
+/**
+ * @brief Para saber si la cola esta vacia
+ * 
+ * @param cola Refenrecia de la cola con la que se esta trabajando
+ * @return 0 si no esta vacia 1 si lo está
+ */
+int estaVacia(Cola * cola);
+
+/**
+ * @brief Imprime el contenido de la cola
+ * 
+ * @param cola Referencia de la cola que se quiere imprimir
+ */
+void imprimirCola(Cola * cola);
+
+
+/**
+ * @brief Destruye una cola
+ * 
+ * @param cola Referencia de la cola con la que se esta trabajando
+ */
+void liberarCola(Cola * cola);
+
+
+
 /**
  * @brief Esta función inicializa la rutina del servidor a la vez que tambien inicializa las estructuras de 
  * datos que seran necesarias para su desempeño
@@ -66,6 +136,11 @@ Mensaje interpretarMensajeServidor(Mensaje * mensaje);
  * @see interpretarMensajeServidor
  */
 void responderMensajeServidor(fd_set * readSet);
+
+
+int buscarSocket(Usuario * usuario);
+
+void iniciarPartida();
 
 // void registrarUsuario();
 

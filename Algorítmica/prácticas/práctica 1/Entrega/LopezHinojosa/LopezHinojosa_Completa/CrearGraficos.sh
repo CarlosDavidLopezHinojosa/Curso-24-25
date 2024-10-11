@@ -12,7 +12,7 @@ do
 
         cat << _end_ | gnuplot
         set terminal postscript eps color
-        set output "$nombre.eps"
+        set output "$nombre.jpg"
         set key right bottom
         set xlabel "N "
         set ylabel "Tiempo en milisegundos"

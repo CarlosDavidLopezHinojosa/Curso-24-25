@@ -35,10 +35,9 @@ int main()
 
         // Responder a mensajes de los clientes existentes
         responderMensajeServidor(&readSet);
-    }
 
-    // Cerrar el socket del servidor al final (opcional si deseas agregar una forma de finalizar)
-    cerrarSocket(&socketServidor);
+        iniciarPartida();
+    }
 
     return 0;
 }

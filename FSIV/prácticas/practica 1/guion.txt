@@ -1,0 +1,34 @@
+
+1.Primero ponemos la presentación y hacemos una breve
+  explicación de los sistemas de representación RGB y HSV (PRESENTACIÓN).
+
+2. Explicación de CBG_PROCESS , constraste, gamma, brillo (PRESENTACIÓN).
+
+3. Explicación de codigo y caso práctico y explicación 
+   de resultados obtenidos (VSCODE).
+
+Con la gamma (las zonas oscuras se aclaran) si g < 1
+	     (las zonas claras se oscurecen) si g > 1
+
+[
+- make && cd .. && ./build/test_common_code
+- ./build/cbg_process -i data/ciclista_original.jpg output.jpg
+]
+
+4. Explicación de CHROMA_KEY, concepto de máscara (PRESENTACIÓN).
+
+5. Explicación de código y ejecutar programa para ver la generación
+   de una máscara (VSCODE).
+
+[
+- make && cd .. && ./build/test_common_code
+- cd build && ./mascara 
+]
+
+6. Explicación del resto del código y caso práctico y 
+   explicación de resultados (VSCODE). 
+
+[
+- ./build/chroma_key data/goku01s.jpg data/backgroundDB.jpg 
+- ./build/chroma_key -v data/SpongeBob.mp4 data/backgroundSF.jpg 
+]

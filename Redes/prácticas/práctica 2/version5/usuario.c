@@ -29,7 +29,36 @@ void rellenarDatos(Usuario * usuario, int * socketUsuario)
     usuario->jugando = 0;
 }
 
-void responderMensajeUsuario()
+void interactuarServidor(Usuario * usuario)
 {
+    while (1)
+    {
+        Mensaje mensaje;
+
+        printf("Escriba su petición (o 'SALIR' para desconectar): ");
+        scanf("%s",mensaje.peticion); // Eliminar el salto de línea
+
+        // Verificar si el usuario quiere salir
+        if (strcmp(mensaje.peticion, "SALIR") == 0) 
+        {
+            printf("Cerrando la conexión...\n");
+            cerrarSocket(&(usuario->socket));
+            break;
+        }
+
+        // Rellenar el usuario en el mensaje
+        mensaje.usuario = *usuario;
+
+        // Enviar el mensaje al servidor
+        enviarMensaje(&(usuario->socket), &mensaje);
+
+        // Recibir la respuesta del servidor
+        Mensaje respuesta;
+        recibirMensaje(&(usuario->socket), &respuesta);
+
+        // Interpretar la respuesta
+        printf("Respuesta del servidor: %s\n", respuesta.peticion);
+    }
     
+        
 }
